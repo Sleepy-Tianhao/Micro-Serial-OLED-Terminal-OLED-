@@ -105,7 +105,12 @@ cd serial-oled-terminal/
 
 ### 项目结构
 ```
-├── main.ino                 # 主程序（包含所有逻辑）
+├──PCB                       # PCB原始文件
+├──BOM                       # 元件清单
+├──Image                     # 示意图
+├──Gerber                    # 制板文件
+├──src
+    └──  main.ino            # 主程序
 ├── README.md                # 本文件
 └── LICENSE                  # MIT 许可证
 ```
@@ -173,7 +178,7 @@ cd serial-oled-terminal/
 2. 创建一个新的 **功能分支**（`git checkout -b feature/amazing-feature`）。  
 3. 提交你的修改（`git commit -m 'Add some amazing feature'`）。  
 4. 推送到分支（`git push origin feature/amazing-feature`）。  
-5. 打开一个 **Pull Request**，清晰描述你的更改内容和动机。。
+5. 打开一个 **Pull Request**，清晰描述你的更改内容
 
 ---
 
