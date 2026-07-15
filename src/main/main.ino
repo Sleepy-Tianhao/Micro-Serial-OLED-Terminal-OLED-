@@ -242,19 +242,11 @@ void rollDown() {
 void pause() {
     int currentState = digitalRead(PIN_OK);
     
-    // 检测下降沿（从 HIGH 到 LOW，即按钮按下瞬间）
     if (currentState == LOW && lastBtnState == HIGH) {
-        // 消抖：确保距离上次触发超过 debounceDelay 毫秒
         if (millis() - lastBtnTime > debounceDelay) {
             refreshPaused = !refreshPaused;   // 切换暂停状态
             lastBtnTime = millis();
-
-            //if (refreshPaused) {
-                //Serial.println(">> Screen refresh PAUSED");
-            //} else {
-                //Serial.println(">> Screen refresh RESUMED");
-                // 恢复时立即刷新一次，显示最新数据
-                needRefresh = true;
+            needRefresh = true;
             }
         }
       lastBtnState = currentState;
