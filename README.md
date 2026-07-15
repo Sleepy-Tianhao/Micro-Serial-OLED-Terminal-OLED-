@@ -184,9 +184,9 @@ cd serial-oled-terminal/
 
 ## 链接与资源
 
-- **项目主页**： [https://github.com/yourname/serial-oled-terminal](https://github.com/yourname/serial-oled-terminal)  
-- **源代码仓库**： [https://github.com/yourname/serial-oled-terminal](https://github.com/yourname/serial-oled-terminal)  
-- **问题跟踪**： [https://github.com/yourname/serial-oled-terminal/issues](https://github.com/yourname/serial-oled-terminal/issues)  
+- **项目主页**： [https://github.com/Sleepy-Tianhao/Micro-Serial-OLED-Terminal-OLED-](https://github.com/Sleepy-Tianhao/Micro-Serial-OLED-Terminal-OLED-)  
+- **源代码仓库**： [https://github.com/Sleepy-Tianhao/Micro-Serial-OLED-Terminal-OLED-](https://github.com/Sleepy-Tianhao/Micro-Serial-OLED-Terminal-OLED-)  
+- **问题跟踪**： [https://github.com/Sleepy-Tianhao/Micro-Serial-OLED-Terminal-OLED-/issues](https://github.com/Sleepy-Tianhao/Micro-Serial-OLED-Terminal-OLED-/issues)  
 - **相关项目**：  
   - [U8g2 图形库](https://github.com/olikraus/U8g2_Arduino) – 为本项目提供 OLED 驱动。  
   - [Arduino 官方文档](https://www.arduino.cc/reference/en/) – 参考 Arduino API。
